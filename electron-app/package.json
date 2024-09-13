@@ -1,0 +1,33 @@
+{
+  "name": "tuxiang",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^13.6.9"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "fs-extra": "^11.1.1"
+  },
+  "build": {
+    "appId": "com.yourcompany.yourappname",
+    "productName": "图像大师",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "src/assets/images/app-icon.icns"
+    },
+    "win": {
+      "icon": "src/assets/images/app-icon.ico"
+    },
+    "linux": {
+      "icon": "src/assets/images/app-icon.png"
+    }
+  }
+}
