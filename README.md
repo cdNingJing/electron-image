@@ -2,25 +2,27 @@
 
 这是一个使用 Electron 和 Yarn 创建的基本应用程序。
 
-## 项目结构优化
+## 项目结构
 
+<pre>
 project-root/
 │
 ├── src/
-│ ├── index.html
-│ ├── styles/
-│ │ └── main.css
-│ ├── scripts/
-│ │ └── renderer.js
-│ └── assets/
-│ └── images/
-│ ├── app-icon.png
-│ ├── app-icon.icns
-│ └── app-icon.ico
+│   ├── index.html
+│   ├── styles/
+│   │   └── main.css
+│   ├── scripts/
+│   │   └── renderer.js
+│   └── assets/
+│       └── images/
+│           ├── app-icon.png
+│           ├── app-icon.icns
+│           └── app-icon.ico
 │
 ├── main.js
 ├── package.json
 └── yarn.lock
+</pre>
 
 ## 安装
 
