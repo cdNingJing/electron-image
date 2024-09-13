@@ -2,7 +2,7 @@
 
 这是一个使用 Electron 和 Yarn 创建的基本应用程序。
 
-## 项目结构
+## 项目结构优化
 
 project-root/
 │
